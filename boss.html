@@ -41,7 +41,7 @@
       <article id="boss-card" class="boss-card">
         <h1 id="boss-title">Načítání...</h1>
         <p id="boss-setup" class="role-plan"></p>
-        <div id="boss-note" class="small"></div>
+        <div id="boss-note" class="small" style="display:none;"></div>
 
         <div id="boss-overview" class="section-card" style="display:none;">
           <h2 class="section-title">Přehled</h2>
@@ -58,7 +58,7 @@
     </main>
 
     <footer class="py-4 text-center text-light">
-      <div class="container small">Fanouškovský CZ přehled · Zdroje: Method.gg · Midnight heroic focus</div>
+      <div class="container small">Fanouškovský CZ přehled raidů · Zdroje: MythicTrap.com, Method.gg</div>
     </footer>
 
     <script>
@@ -237,8 +237,12 @@
           if (boss.setup) {
             document.getElementById('boss-setup').innerHTML = `<strong>Setup:</strong> ${safe(boss.setup)}`;
           }
+          const noteEl = document.getElementById('boss-note');
           if (boss.note) {
-            document.getElementById('boss-note').innerHTML = safe(boss.note);
+            noteEl.innerHTML = safe(boss.note);
+            noteEl.style.display = '';
+          } else {
+            noteEl.style.display = 'none';
           }
 
           if (boss.overview && boss.overview.length) {
