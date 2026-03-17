@@ -1,0 +1,171 @@
+{
+  "slug": "vaelgor-and-ezzorak",
+  "title": "Vaelgor & Ezzorak",
+  "setup": "čisté target swapy a kontrola dual mechanik",
+  "overview": [
+    "Jednofázový fight s intermission (Midnight Flames + Barrier).",
+    "Dva bossové zároveň; oba jsou napadatelní ve fázi, ale ne během intermission.",
+    "Break tethery (Nullzone) když tě přitáhne boss.",
+    "Soakuj Gloom orb, aby se zmenšilo pole denialu.",
+    "CC/interrupt Voidorby a klony.",
+    "Během intermission zůstaň v barrieru a rychle zlikviduj addy."
+  ],
+  "phases": [
+    {
+      "title": "Fáze 1",
+      "notes": [
+        "Tankuj dračí moby odděleně a drž HP v rozmezí max 10 % (twilight bond).",
+        "Break tethery; čím dřív, tím méně damage pro raid.",
+        "Soakuj Gloom orb, CC Voidorby, interruptuj klony."
+      ],
+      "mechanics": [
+        {
+          "title": "Nullzone",
+          "subtitle": "Run away",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/vaelgor-and-ezzorak/nullzone.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1244672",
+          "description": "Bosss tetheruje všechny hráče a silně je přitahuje. Tetherovaní hráči berou rostoucí damage. Každé přerušení tetheru udělí raid damage.",
+          "who": "Všichni",
+          "what": "Protrhněte tether",
+          "video": "https://assets2.mythictrap.com/videos/vs-dr-mqd/vaelgor-and-ezzorak/nullzone.mp4",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Nullbeam",
+          "subtitle": "Targeted beam",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/vaelgor-and-ezzorak/nullbeam.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1262623",
+          "description": "Cílený široký beam na tanky, dělá damage a přidává stacky debuffu, které snižují sílu tetheru.",
+          "who": "Aktivní tank",
+          "what": "Skoč do beamu",
+          "video": "https://assets2.mythictrap.com/videos/vs-dr-mqd/vaelgor-and-ezzorak/nullbeam.mp4",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Dread Breath",
+          "subtitle": "Fear",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/vaelgor-and-ezzorak/dreadBreath.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1244221",
+          "description": "Cone blast na náhodného hráče, který fearuje všechny, kdo jsou zasaženi. Fear lze dispelovat.",
+          "who": "Všichni",
+          "what": "Vyhni se cone",
+          "video": "https://assets2.mythictrap.com/videos/vs-dr-mqd/vaelgor-and-ezzorak/dreadBreath.mp4",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Gloom Soak",
+          "subtitle": "Gloom orb",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/vaelgor-and-ezzorak/gloom.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1245391",
+          "description": "Ezzorak vytvoří Gloom orb a vystřelí ho směrem k tankovi. Orb se při každém soaku zmenší (až 4×). Když dosáhne okraje arény, vybuchne, udělí raid damage a zanechá velký puddle. Velikost a damage se snižují s každým soakem. Pokud orb dojede k okraji už existujícího puddlu, také exploduje. Hráči, kteří orb soaknou, dostanou silný, stackující DoT na 12 s.",
+          "who": "Všichni",
+          "what": "Soakni orb",
+          "video": "https://assets2.mythictrap.com/videos/vs-dr-mqd/vaelgor-and-ezzorak/gloom.mp4",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Void Howl",
+          "subtitle": "Cleave & Adds",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/vaelgor-and-ezzorak/voidHowl.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1244917",
+          "description": "Každý hráč dostane malou AoE značku, která po chvíli exploduje a spawnne Voidorby. Voidorby dělají damage a castí voidbolt; CC a interrupt je.",
+          "who": "Všichni",
+          "what": "Spread a CC",
+          "video": "https://assets2.mythictrap.com/videos/vs-dr-mqd/vaelgor-and-ezzorak/voidHowl.mp4",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Twilight Bond",
+          "subtitle": "Oddělit bosse",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/vaelgor-and-ezzorak/twilightBond.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1270189",
+          "description": "Dragons získávají 100% buff damage, pokud jsou více než 10 % rozdílní v HP nebo jsou tankovaní blíže než 15 yd.",
+          "who": "Tank",
+          "what": "Tankovat bosse odděleně",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Vaelwing",
+          "subtitle": "Tankbuster",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/vaelgor-and-ezzorak/vaelwing.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1265131",
+          "description": "Vaelgor udeří tank silně, přidává knockback a zvyšuje své melee damage, dokud nepřejde na nový cíl.",
+          "who": "Tank",
+          "what": "Swap po hitu",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Rakfang",
+          "subtitle": "Tankbuster",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/vaelgor-and-ezzorak/rakfang.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1245645",
+          "description": "Ezzorak udeří tanka masivně, aplikuje healing absorb a zvyšuje svůj melee damage, dokud nezabije jiného tanka.",
+          "who": "Tank",
+          "what": "Swap po hitu",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Tail Lash / Impale",
+          "subtitle": "Tail swipe",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/vaelgor-and-ezzorak/tailLash.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1264467",
+          "description": "Hráči za bossy jsou odhozováni a dostávají krátký bleed DoT.",
+          "who": "Všichni",
+          "what": "Drž se mimo ocasy",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Midnight Manifestation",
+          "subtitle": "Random DoT",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/vaelgor-and-ezzorak/midnightManifestation.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1255763",
+          "description": "Několik náhodných hráčů dostane DoT, který se stackuje. Healeři musí držet raid HP.",
+          "who": "Všichni",
+          "what": "Heal through",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Midnight Flames",
+          "subtitle": "Intermission",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/vaelgor-and-ezzorak/midnightFlames.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1249748",
+          "description": "Na 100 energie draci odlétají, dělají raid-wide damage 25s a startuje intermission. Zůstávej uvnitř barrieru a rychle zabij Manifestation add.",
+          "who": "Všichni",
+          "what": "Stůj v barrieru",
+          "difficulties": ["normal", "heroic", "mythic"]
+        }
+      ]
+    },
+    {
+      "title": "Intermission",
+      "notes": [
+        "Drž se uprostřed bariéry.",
+        "Když dostaneš debuff, jdi na okraj.",
+        "Zabij addy co nejrychleji, než se draci vrátí dolů."
+      ],
+      "mechanics": [
+        {
+          "title": "Radiant Barrier",
+          "subtitle": "Intermission",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/vaelgor-and-ezzorak/radiantBarrier.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1248847",
+          "description": "Velký bariéra snižuje damage od Midnight Flames. Po jejím vzniku se spawnne Manifestation of Midnight a odstraní DoT. Několik hráčů dostane pulse DoT, které exploduje po 4s.",
+          "who": "Všichni",
+          "what": "Stůj v bariéře, zabij addy, jdi na okraj když dostaneš debuff",
+          "video": "https://assets2.mythictrap.com/videos/vs-dr-mqd/vaelgor-and-ezzorak/radiantBarrier.mp4",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Unbound Shadow",
+          "subtitle": "Add",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/vaelgor-and-ezzorak/unboundShadow.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1251686",
+          "description": "Add dostává každých 30s buff (75% attack speed + 50% slow resist). Priorita je ho zničit dříve, než bude příliš silný.",
+          "who": "Všichni",
+          "what": "Fokus add",
+          "difficulties": ["normal", "heroic", "mythic"]
+        }
+      ]
+    }
+  ]
+}

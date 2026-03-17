@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "imperator-averzian",
+    "title": "Imperator Averzian",
+    "setup": "2 tanci · 4–5 healeři · zbytek dps",
+    "overview": [
+      "Jedna fáze, hodně addů spawnuje po claimu políček.",
+      "Averzian se snaží vyhrát “tic‑tac‑toe” tím, že obsadí 3 sousední políčka.",
+      "Abyssal Voidshapery obsazují políčka i pro něj; 2 z nich můžete zastavit (soakem) a zabít, třetí obvykle doběhne.",
+      "Priority: kill / interrupt addy → pak boss DPS."
+    ]
+  },
+  {
+    "slug": "vorasius",
+    "title": "Vorasius",
+    "setup": "stabilní interrupt rota + mobilní DPS",
+    "overview": [
+      "Jedna fáze, rychlý fight se spoustou křišťálových stěn.",
+      "Addy fixují hráče a po smrti explodují; využij jejich výbuchy k ničení stěn.",
+      "Void Breath je beam, proti kterému nemáš únik, pokud nejsou stěny pryč.",
+      "Tank musí být stále v melee range; jinak je to wipe (Overpowering Pulse)."
+    ]
+  },
+  {
+    "slug": "fallen-king-salhadaar",
+    "title": "Fallen King Salhadaar",
+    "setup": "disciplína na soak markerech",
+    "overview": [
+      "Jednofázový fight s damage ampem na 100 energie.",
+      "Orby se spawnují a pomalu se valí k bossovi – když se ho dotknou, je wipe.",
+      "Klony spouští Shadow Fracture; musí se přerušit/CC, jinak udělají masivní raid damage.",
+      "Puddly jsou permanentní a plní místnost; házej je na okraje."
+    ]
+  },
+  {
+    "slug": "vaelgor-and-ezzorak",
+    "title": "Vaelgor & Ezzorak",
+    "setup": "čisté target swapy a kontrola dual mechanik",
+    "overview": [
+      "Jednofázový fight s intermission (Midnight Flames + Barrier).",
+      "Dva bossové zároveň; oba jsou napadatelní ve fázi, ale ne během intermission.",
+      "Break tethery (Nullzone) když tě přitáhne boss.",
+      "Soakuj Gloom orb, aby se zmenšilo pole denialu.",
+      "CC/interrupt Voidorby a klony.",
+      "Během intermission zůstaň v barrieru a rychle zlikviduj addy."
+    ]
+  },
+  {
+    "slug": "chimaerus-the-undreamt-god",
+    "title": "Chimaerus, the Undreamt God",
+    "setup": "Rozděl raid na dvě skupiny, měj jasně rozdělené soaky a zaměř se na rychlé zabití addů.",
+    "overview": [
+      "Fight se střídá mezi Reality a Rift realitou.",
+      "Soaky mají posílat hráče mezi světy, zatímco Rift spawnuje adds, které buffují bosse.",
+      "Když addy žijí dlouho, léčí bosse a dělají raid-wide debufy.",
+      "Po kanálu se vše resetne a začne se druhá fáze s více AoE a addy.",
+      "Tank swapy a mechaniky s vysokým raidovým damage jsou klíčové (Rending Tear, Colossal Strikes)."
+    ]
+  },
+  {
+    "slug": "lightblinded-vanguard",
+    "title": "Lightblinded Vanguard",
+    "setup": "dobrý defensivní timing celého raidu",
+    "overview": [
+      "Před pullem si určete safe spoty pro line‑of‑sight mechaniky.",
+      "Soak skupiny jsou rozdělené do dvou týmů (A/B) kvůli overkillu.",
+      "Tank callouty: frontal/cleave hlaste kvůli melee repositionu.",
+      "Heal CD rotace (spirit link / barrier / tranq) na hlavní burst okna.",
+      "DPS cooldowny nechávejte na momenty boss vulnerability, ne na pull."
+    ]
+  }
+]

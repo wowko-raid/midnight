@@ -1,0 +1,98 @@
+{
+  "slug": "fallen-king-salhadaar",
+  "title": "Fallen King Salhadaar",
+  "setup": "disciplína na soak markerech",
+  "overview": [
+    "Jednofázový fight s damage ampem na 100 energie.",
+    "Orby se spawnují a pomalu se valí k bossovi – Znič je než se jej dotknou, jinak je wipe.",
+    "Klony spouští Shadow Fracture; musí se přerušit/CC, jinak udělají masivní raid damage.",
+    "Puddly jsou permanentní a plní místnost; házej je na okraje."
+  ],
+  "phases": [
+    {
+      "title": "Fáze 1",
+      "notes": [
+        "Nenech orby se dotknout bossa.",
+        "Interruptuj addy / klony.",
+        "Dropni puddly k okrajům, aby bylo víc místa na pohyb."
+      ],
+      "mechanics": [
+        {
+          "title": "Void Convergence",
+          "subtitle": "Orbs mechanic",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/fallen-king-salhadaar/voidConvergence.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1247738",
+          "description": "Několik koncentrovaných Void orbů se spawnne a pomalu se valí k bossovi. Pokud se orb bossa dotkne, wipe. Tankové musí držet bosse dál od orbů, zatímco DPS je zabíjejí. Orby pulzují damage na každého, kdo stojí moc blízko.",
+          "who": "Všichni",
+          "what": "Nenechat bosse se dotknout orbů",
+          "video": "https://assets2.mythictrap.com/videos/vs-dr-mqd/fallen-king-salhadaar/voidConvergence.mp4",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Fractured Projection",
+          "subtitle": "Interrupt / CC",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/fallen-king-salhadaar/fracturedProjection.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1254081",
+          "description": "Salhadaar spawnne klony, které se snaží seslat Shadow Fracture. Když cast projde, raid dostane masivní damage. Klony lze přerušit nebo crowd controlovat; po přerušení zmizí.",
+          "who": "Všichni",
+          "what": "Interrupt + CC",
+          "video": "https://assets2.mythictrap.com/videos/vs-dr-mqd/fallen-king-salhadaar/fracturedProjection.mp4",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Despotic Command",
+          "subtitle": "Puddle",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/fallen-king-salhadaar/despoticCommand.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1248697",
+          "description": "Několik hráčů pulzuje damage v kruhu kolem sebe po 12s. Když debuff skončí, vytvoří puddle a nechají za sebou healing absorb. Tyto puddly jsou permanentní a dělají damage hráčům, kteří v nich stojí. Házej je na okraje, abys ušetřil prostor.",
+          "who": "Všichni",
+          "what": "Hoď puddly na okraj",
+          "video": "https://assets2.mythictrap.com/videos/vs-dr-mqd/fallen-king-salhadaar/despoticCommand.mp4",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Entropic Unraveling",
+          "subtitle": "Damage do bosse",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/fallen-king-salhadaar/entropicUnraveling.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1246175",
+          "description": "Na 100 energie boss stojí na místě a po dobu 20s dělá raid-wide pulzující damage. Kolem něj se otáčí několik paprsků, které dělají masivní damage každému, koho zasáhnou. Během toho bere boss +25 % zvýšeného damage. Po skončení zanechá permanentní puddle, takže ho tankujte u okraje.",
+          "who": "Všichni",
+          "what": "Dělej co nejvíc damage a vyhni se paprskům",
+          "video": "https://assets2.mythictrap.com/videos/vs-dr-mqd/fallen-king-salhadaar/entropicUnraveling.mp4",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Shattering Twilight",
+          "subtitle": "Dodge",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/fallen-king-salhadaar/shatteringTwilight.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1250803",
+          "description": "Aktivní Tank je označen a po zásahu vystřelí z něj několik linií s spike, které dojedou ven z něj. Pokud stojíš v cestě, dostaneš damage.",
+          "who": "Všichni",
+          "what": "Vyhni se spike",
+          "video": "https://assets2.mythictrap.com/videos/vs-dr-mqd/fallen-king-salhadaar/shatteringTwilight.mp4",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Twisting Obscurity",
+          "subtitle": "Raid damage",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/fallen-king-salhadaar/twistingObscurity.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1250686",
+          "description": "Raid-wide damage následované dlouhým DoTem (23s). Healery musí držet HP raid.",
+          "who": "Healer",
+          "what": "Přehealovat",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Destabilizing Strikes",
+          "subtitle": "Tank debuff",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/fallen-king-salhadaar/destabilizingStrikes.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1271577",
+          "description": "Bossovy melee attacky dávají stakující DoT. Pokud to necháš naběhat, tank to neudrží.",
+          "who": "Tank",
+          "what": "Swap tanky při vysokém stacku",
+          "difficulties": ["normal", "heroic", "mythic"]
+        }
+      ]
+    }
+  ]
+}

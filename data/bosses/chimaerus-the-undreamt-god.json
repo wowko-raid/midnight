@@ -1,0 +1,157 @@
+{
+  "slug": "chimaerus-the-undreamt-god",
+  "title": "Chimaerus, the Undreamt God",
+  "setup": "Rozděl raid na dvě skupiny (Reality/Rift), plánuj soaky a zachraň addy co nejrychleji.",
+  "overview": [
+    "Fight se střídá mezi Reality a Rift realitou; pomocí soaků se přepínáte mezi světy.",
+    "Priority #1: zabij addy v Riftu co nejdřív, jinak buffují/rozdávají absorb pro bossy.",
+    "Soaky (Alndust Upheaval) jsou společné pro celou skupinu; každý set soaků rozmístěte rovnoměrně.",
+    "Puddly po zničení absorb štítů (Alnshroud) dělají damage a slow; čistě je dispellem.",
+    "Stage 2 se spouští po kanálu a přeskupení (Ravenous Dive) – připravte se na další addy a raid damage.",
+    "Tankswap a tankbuster timing jsou klíčové (Rending Tear / Colossal Strikes / Judgement-style tankbusters)."
+  ],
+  "phases": [
+    {
+      "title": "Fáze 1 – Reality + Rift",
+      "notes": [
+        "Split raid na dvě skupiny; jedna skupina soakuje Alndust Upheaval, druhá řeší addy v Riftu.",
+        "Čím dřív zabijete Manifestations, tím méně buffů dostane boss.",
+        "Chimaerus dělá pravidelný raid damage a chce zabít addy, protože je po smrti pojídá (Consume)."
+      ],
+      "mechanics": [
+        {
+          "title": "Alndust Upheaval",
+          "subtitle": "Soak + přepnutí realit",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/chimaerus-the-undreamt-god/alndustUpheaval.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1262289",
+          "description": "Tank dostane kruh, který musí soaknout. Hráči, kteří circles soaknou, jsou přesunuti do Rift reality.",
+          "who": "Všichni",
+          "what": "Soakněte a zapněte Rift skupinu",
+          "note": "Groupy se střídají (např. A/B). Pokud někteří hráči nestihnou přejít, přidá se acc za bytí v nesprávném světě.",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Rift Emergence",
+          "subtitle": "Spawns adds",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/chimaerus-the-undreamt-god/riftEmergence.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1258610",
+          "description": "Chimaerus začne spawnovat Manifestation addy ve Riftu a vydává raid-wide nature damage pulzy.",
+          "who": "Všichni",
+          "what": "Kill adds quickly",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Alnshroud",
+          "subtitle": "Add absorb + puddles",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/chimaerus-the-undreamt-god/alnshroud.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1250953",
+          "description": "Manifestation addy mají absorb štít; když štít praskne, jsou přepnuti do Reality a zanechají za sebou puddle (Alndust Essence).",
+          "who": "Všichni",
+          "what": "Break add shields, dispel puddles",
+          "note": "Puddly dělají damage a slow; očistěte je dispellem, když jste v nich.",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Rending Tear",
+          "subtitle": "Frontal tankbuster",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/chimaerus-the-undreamt-god/rendingTear.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1272726",
+          "description": "Chimaerus dělá velký frontal cone cleave, dává bleed a knockback.",
+          "who": "Tank",
+          "what": "Face away, použij mitigace",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Consume",
+          "subtitle": "Raid damage + adds eaten",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/chimaerus-the-undreamt-god/consume.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1245396",
+          "description": "Chimaerus kanálem zabíjí zbývající addy a dělá raid-wide damage. Pokud jsou addy živé, dostane z nich heal.",
+          "who": "Všichni",
+          "what": "Finish adds asap",
+          "difficulties": ["normal", "heroic", "mythic"]
+        }
+      ]
+    },
+    {
+      "title": "Fáze 2 – po kanálu (Ravenous Dive)",
+      "notes": [
+        "Po kanálu se fight resetuje do stejného cyklu, ale s větším tlakem na addy a raid dmg.",
+        "V této fázi bude více addů a více raid-wide AoE; držte heal CD a defensivy." 
+      ],
+      "mechanics": [
+        {
+          "title": "Ravenous Dive",
+          "subtitle": "Raid damage + knockup",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/chimaerus-the-undreamt-god/ravenousDive.jpg",
+          "wowhead": "https://en.wowhead.com/spell=0",
+          "description": "Chimaerus se vrhne do země, dělá raid-wide damage, knockupuje a zabíjí všechny zbývající addy.",
+          "who": "Všichni",
+          "what": "Heal through, prepare for knockup",
+          "note": "Ujistěte se, že jsou všechny addy mrtvé před kanálem.",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Corrupted Devastation",
+          "subtitle": "Adds + puddles",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/chimaerus-the-undreamt-god/corruptedDevastation.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1245486",
+          "description": "Chimaerus označí linii po místnosti, letí přes ni a vytváří puddly s addy.",
+          "who": "Všichni",
+          "what": "Kill adds, clear puddles",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Consuming Miasma",
+          "subtitle": "Dispel puddles",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/chimaerus-the-undreamt-god/consumingMiasma.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1257087",
+          "description": "Několik hráčů dostane debuff; když ho dispelnete, explodují a zničí puddly.",
+          "who": "Healer",
+          "what": "Dispel to clear puddles",
+          "difficulties": ["heroic", "mythic"]
+        },
+        {
+          "title": "Caustic Phlegm",
+          "subtitle": "Raid DoT",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/chimaerus-the-undreamt-god/causticPhlegm.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1246621",
+          "description": "Raid dostává dalších 12s nature DoT.",
+          "who": "Healer",
+          "what": "Heal through",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Colossal Strikes",
+          "subtitle": "3-hit tankbuster",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/chimaerus-the-undreamt-god/colossalStrikes.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1262020",
+          "description": "Tři po sobě jdoucí útoky na tank, hodně damage + nature.",
+          "who": "Tank",
+          "what": "Use mitigation / swap",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Fearsome Cry",
+          "subtitle": "Interrupt",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/chimaerus-the-undreamt-god/fearsomeCry.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1249017",
+          "description": "Chimaerus čaruje fear + damage; přerušení zmenší tlak na healery.",
+          "who": "Všichni",
+          "what": "Interrupt",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Essence Bolt",
+          "subtitle": "Interrupt add cast",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/chimaerus-the-undreamt-god/essenceBolt.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1261997",
+          "description": "Addy castí přímo na cíle; přerušte je, pokud můžete.",
+          "who": "Všichni",
+          "what": "Interrupt adds",
+          "difficulties": ["normal", "heroic", "mythic"]
+        }
+      ]
+    }
+  ]
+}

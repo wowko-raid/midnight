@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Midnight Raid Taktiky CZ</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark nav-glass sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-semibold" href="#top">Midnight Raid Taktiky CZ</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Přepnout navigaci"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#voidspire" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Voidspire raid
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="boss.html?boss=imperator-averzian">Imperator Averzian</a></li>
+                <li><a class="dropdown-item" href="boss.html?boss=vorasius">Vorasius</a></li>
+                <li><a class="dropdown-item" href="boss.html?boss=fallen-king-salhadaar">Fallen King Salhadaar</a></li>
+                <li><a class="dropdown-item" href="boss.html?boss=vaelgor-and-ezzorak">Vaelgor &amp; Ezzorak</a></li>
+                <li><a class="dropdown-item" href="boss.html?boss=lightblinded-vanguard">Lightblinded Vanguard</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#dreamrift">Dreamrift raid</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#march-on-queldanas">March-on-Quel'Danas raid</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header id="top" class="hero-section text-light">
+      <div class="container py-5">
+        <span class="badge bg-warning text-dark mb-3">WoW: Midnight</span>
+        <h1 class="display-5 fw-bold">Taktiky pro raidery (CZ)</h1>
+        <p class="lead col-lg-10 mb-3">
+          Jednoduchý český přehled raid taktik.
+        </p>
+        <p class="small mb-0 text-info-emphasis">
+          Pro gildu RAPID EVOLUTION EU
+        </p>
+      </div>
+    </header>
+
+    <main class="container py-5">
+      <section id="voidspire" class="mb-5">
+        <h2 class="section-title">The Voidspire</h2>
+        <div id="boss-list" class="row g-4"></div>
+      </section>
+
+      <section id="dreamrift" class="mb-5">
+        <h2 class="section-title">The Dreamrift</h2>
+        <article class="boss-card">
+          <h3>Chimaerus, the Undreamt God</h3>
+          <p>Samostatná taktika v češtině + source link.</p>
+          <a class="btn btn-sm btn-primary w-100" href="boss.html?boss=chimaerus-the-undreamt-god">Otevřít taktiku</a>
+        </article>
+      </section>
+
+      <section id="march-on-queldanas">
+        <h2 class="section-title">March on Quel'Danas</h2>
+        <article class="boss-card">
+          <h3>Beloren, Child of Al'ar</h3>
+          <p>Samostatná taktika v češtině + source link.</p>
+          <a class="btn btn-sm btn-primary w-100" href="march-on-queldanas-beloren-child-of-alar.html">Otevřít taktiku</a>
+        </article>
+      </section>
+
+      <footer class="py-4 text-center text-light">
+        <div class="container small">Fanouškovský CZ přehled · Zdroje: Method.gg · Midnight heroic focus</div>
+      </footer>
+
+      <script>
+        async function loadBossCards() {
+          try {
+            const resp = await fetch('data/bosses/list.json');
+            const bosses = await resp.json();
+            const order = [
+              'imperator-averzian',
+              'vorasius',
+              'fallen-king-salhadaar',
+              'vaelgor-and-ezzorak',
+              'lightblinded-vanguard'
+            ];
+            const container = document.getElementById('boss-list');
+
+            function makeCard(boss) {
+              const col = document.createElement('div');
+              col.className = 'col-12 col-lg-6';
+              const card = document.createElement('article');
+              card.className = 'boss-card h-100';
+
+              const title = document.createElement('h3');
+              const link = document.createElement('a');
+              link.href = `boss.html?boss=${encodeURIComponent(boss.slug)}`;
+              link.className = 'text-white text-decoration-none';
+              link.textContent = boss.title;
+              title.appendChild(link);
+              card.appendChild(title);
+
+              if (boss.setup) {
+                const setup = document.createElement('p');
+                setup.className = 'role-plan';
+                setup.innerHTML = `<strong>Setup:</strong> ${boss.setup}`;
+                card.appendChild(setup);
+              }
+
+              if (boss.overview && boss.overview.length) {
+                const ul = document.createElement('ul');
+                for (const line of boss.overview) {
+                  const li = document.createElement('li');
+                  li.textContent = line;
+                  ul.appendChild(li);
+                }
+                card.appendChild(ul);
+              }
+
+              const footer = document.createElement('div');
+              footer.className = 'card-footer bg-white';
+              const button = document.createElement('a');
+              button.className = 'btn btn-sm btn-primary w-100';
+              button.href = `boss.html?boss=${encodeURIComponent(boss.slug)}`;
+              button.textContent = 'Otevřít taktiku';
+              footer.appendChild(button);
+              card.appendChild(footer);
+
+              col.appendChild(card);
+              return col;
+            }
+
+            for (const slug of order) {
+              const b = bosses.find(x => x.slug === slug);
+              if (b) container.appendChild(makeCard(b));
+            }
+          } catch (err) {
+            console.error(err);
+            const container = document.getElementById('boss-list');
+            container.innerHTML = `<div class="col-12"><div class="alert alert-danger">Nepodařilo se načíst seznam bossů.</div></div>`;
+          }
+        }
+        loadBossCards();
+      </script>
+
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"
+      ></script>
+    </main>
+</body>
+</html>

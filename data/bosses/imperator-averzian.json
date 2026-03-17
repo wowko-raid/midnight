@@ -1,0 +1,118 @@
+{
+  "slug": "imperator-averzian",
+  "title": "Imperator Averzian",
+  "setup": "2 tanci · 4–5 healeři · zbytek dps",
+  "overview": [
+    "Jedna fáze, hodně addů spawnuje po obsazení políček.",
+    "Averzian se snaží vyhrát “tic‑tac‑toe”(piškvorky) tím, že obsadí 3 sousední políčka.",
+    "Abyssal Voidshapeři obsazují políčka i pro něj; vždy můžete pouze 2 z nich můžete zastavit (soakem) a zabít, třetí obvykle doběhne.",
+    "Priority: kill / interrupt addy → pak boss DPS."
+  ],
+  "phases": [
+    {
+      "title": "Fáze 1",
+      "notes": [
+        "Averzian po celou dobu boje postupně obsazuje políčka; po obsazení spawnuje set addů s mechanikami.",
+        "Interrupt a AoE je rychle zničí."
+      ],
+      "mechanics": [
+        {
+          "title": "Shadow's Advance",
+          "subtitle": "Claims Space",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/imperator-averzian/shadowsAdvance.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1251361",
+          "description": "Averzian summonuje 3 Abyssal Voidshapery, které se přesunou na 3 náhodná políčka a snaží se je obsadit čarováním Void Rupture. Tyto addy mají 99% redukci damage, dokud je nezasáhne Umbral Collapse. Zastavíte jen 2 z 3. Jakmile je políčko obsazeno, nejde ho vzít zpět.",
+          "who": "Leader",
+          "what": "Urči 2 addy, které zabiješ při Umbral Collapse",
+          "video": "https://assets2.mythictrap.com/videos/vs-dr-mqd/imperator-averzian/shadowsAdvance.mp4",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Umbral Collapse",
+          "subtitle": "Soak",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/imperator-averzian/umbralCollapse.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1249262",
+          "description": "Hráč je označen velkým soak kruhem, který by měl celej raid pomoct soakovat. Když soak přemístíte na adda, odstraníte mu 99% redukci damage, což vám umožní adda zabít, než dokončí obsazení políčka. Soak se objeví jen 2× na každou vlnu Abyssal Voidshaperů. Proto můžete zabránit obsazení jen 2 z 3 políček.",
+          "who": "Všichni",
+          "what": "Soakem vybereš adda, kterého zabiješ",
+          "video": "https://assets2.mythictrap.com/videos/vs-dr-mqd/imperator-averzian/umbralCollapse.mp4",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Void Rupture",
+          "subtitle": "Vyhnout se",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/imperator-averzian/voidRupture.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1261249",
+          "description": "Po dokončení tohoto kouzla si Abyssal Voidshapery úspěšně obsadit políčko. Oblast vybuchne v 12yd okruhu a z obsazeného políčka na krátko vystřelí několik paprsků.",
+          "who": "Všichni",
+          "what": "Vyhni se beamům",
+          "video": "https://assets2.mythictrap.com/videos/vs-dr-mqd/imperator-averzian/voidRupture.mp4",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Void Fall",
+          "subtitle": "Vyhnout se",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/imperator-averzian/voidFall.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1258883",
+          "description": "Knockback následovaný AOE kruhy na zemi, kterým se musíte vyhnout.",
+          "who": "Všichni",
+          "what": "Vyhni se kruhům",
+          "video": "https://assets2.mythictrap.com/videos/vs-dr-mqd/imperator-averzian/voidFall.mp4",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Oblivion's Wrath",
+          "subtitle": "Vyhnout se",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/imperator-averzian/oblivionsWrath.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1260712",
+          "description": "Z Averziana vystřelí několik voidových paprsků, které dělají damage a odkopávají hráče.",
+          "who": "Všichni",
+          "what": "Vyhni se paprskům",
+          "video": "https://assets2.mythictrap.com/videos/vs-dr-mqd/imperator-averzian/oblivionsWrath.mp4",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Shadow Phalanx",
+          "subtitle": "Vyhnout se",
+          "icon": "https://assets.rpglogs.com/img/warcraft/abilities/inv_soulbarrier.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1284786",
+          "description": "Netargetovatelné jednotky pochodují z jednoho konce pole na druhý a dělají masivní damage hráčům, přes které přejdou. Najděte safe space bez jednotek, kudy se bezpečně projít.",
+          "who": "Všichni",
+          "what": "Najdi safe space pro průchod",
+          "video": "https://assets2.mythictrap.com/videos/vs-dr-mqd/imperator-averzian/shadowPhalanx.mp4",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Imperator's Glory",
+          "subtitle": "Přemístit Bosse",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/imperator-averzian/imperatorsGlory.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1265490",
+          "description": "Když je boss do 10 yd od obsazeného pole, má +75% damage a 99% DR.",
+          "who": "Tank",
+          "what": "Odveď bosse pryč",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Blackening Wounds",
+          "subtitle": "Tank DOT",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/imperator-averzian/blackeningWounds.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1265540",
+          "description": "Bossovy melee attacky dávají stakující DoT. Pokud to necháš naběhat, tank to neudrží.",
+          "who": "Tank",
+          "what": "Swap tanky při vysokém stacku",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Dark Upheaval",
+          "subtitle": "Raid Damage",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/imperator-averzian/darkUpheaval.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1249251",
+          "description": "Silný raidový burst damage následované ticking damage; healeři musí být připravení držet raid HP.",
+          "who": "Healer",
+          "what": "Přehealovat",
+          "difficulties": ["normal", "heroic", "mythic"]
+        }
+      ]
+    }
+  ]
+}

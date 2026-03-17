@@ -1,0 +1,77 @@
+{
+  "slug": "vorasius",
+  "title": "Vorasius",
+  "setup": "stabilní interrupt rota + mobilní DPS",
+  "overview": [
+    "Jedna fáze, rychlý fight se spoustou křišťálových stěn.",
+    "Addy fixují hráče a po smrti explodují; využij jejich výbuchy k ničení stěn.",
+    "Void Breath je beam, proti kterému nemáš únik, pokud nejsou stěny pryč.",
+    "Tank musí být stále v melee range; jinak je to wipe (Overpowering Pulse)."
+  ],
+  "phases": [
+    {
+      "title": "Fáze 1",
+      "notes": [
+        "Vorasius tě uvězní ve stěnách (Crystal Walls).",
+        "Vyhýbej se AoE a kitej fixující addy.",
+        "Použij je k zničování stěn, aby ses mohl vyhnout beamu."
+      ],
+      "mechanics": [
+        {
+          "title": "Primordial Roar",
+          "subtitle": "Pull + knockback",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/vorasius/primordialRoar.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1260052",
+          "description": "Boss kanáluje a přitahuje hráče k sobě, zároveň dělá raid damage. Na konci kanálu udělí další raid damage a knockback.",
+          "who": "Všichni",
+          "what": "Zůstaň na platformě",
+          "video": "https://assets2.mythictrap.com/videos/vs-dr-mqd/vorasius/primordialRoar.mp4",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Shadowclaw Slam",
+          "subtitle": "Tank soak",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/vorasius/shadowclawSlam.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1241692",
+          "description": "Na podlaze se objeví kruh. Tank do něj musí vstoupit a soaknout ho, jinak je wipe. Soaknutím prvních dvou kruhů se aplikuje stackovatelný 150% physical vulnerability debuff. První dva slamy vytvoří Void Crystal walls na levé a pravé straně místnosti. Tyto stěny zničíš výbuchy addů. Po pár sekundách kruh exploduje a vytvoří Aftershocks; kolem soaked kruhu se objeví prstenec, který exploduje a dělá damage komukoli uvnitř.",
+          "who": "Všichni",
+          "what": "1 tank soakuje a swapuje po 2 stacích, ostatní se vyhnou prstenci",
+          "video": "https://assets2.mythictrap.com/videos/vs-dr-mqd/vorasius/shadowclawSlam.mp4",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Blisterburst",
+          "subtitle": "Add management",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/vorasius/blisterburst.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1259186",
+          "description": "Spawnuje Blistercreep addy, které fixují náhodné hráče, dělají damage a zpomalují cíle. Lze je dispelovat. Také vytváří malé AoE kruhy, které dělají damage komukoli, koho zasáhnou. Když addy zemřou, udělají raid-wide shadow damage a explodují pro dodatečné AoE v 8 yd. Fixovaní hráči musí své addy dostat blízko Crystal Walls, aby je výbuchy zničily.",
+          "who": "DPS a Healeři",
+          "what": "Odvádět addy ke stěnám",
+          "video": "https://assets2.mythictrap.com/videos/vs-dr-mqd/vorasius/blisterburst.mp4",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Void Breath",
+          "subtitle": "Beam",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/vorasius/voidBreath.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1256855",
+          "description": "Vorasius pomalu přejíždí po místnosti smrtícím beamen, který dělá raid-wide pulzující damage po 15s. Začíná náhodně na levé nebo pravé straně, tak dávej pozor! Pokud nejsou Crystal Walls zničené, nebude kam uniknout.",
+          "who": "Všichni",
+          "what": "Vyhni se beamu",
+          "video": "https://assets2.mythictrap.com/videos/vs-dr-mqd/vorasius/voidBreath.mp4",
+          "difficulties": ["normal", "heroic", "mythic"]
+        },
+        {
+          "title": "Overpowering Pulse",
+          "subtitle": "Raid wipe",
+          "icon": "https://assets2.mythictrap.com/vs-dr-mqd/vorasius/overpoweringPulse.jpg",
+          "wowhead": "https://en.wowhead.com/spell=1244419",
+          "description": "Pokud není v melee nikdo, pulse zabije celý raid.",
+          "who": "Tank",
+          "what": "Tank pořád nablízko u bosse nebo wipe",
+          "difficulties": ["normal", "heroic", "mythic"]
+        }
+      ]
+    }
+  ]
+}
