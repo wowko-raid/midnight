@@ -3,11 +3,11 @@
   "title": "Lightblinded Vanguard",
   "setup": "Dobrý defensivní timing pro celý raid + jasné tank swap callouty.",
   "overview": [
-    "Tři bossové (Lightblood, Bellamy, Senn) v jedné aréně. Zabíjej je rovnoměrně.",
-    "Připravte se na hodně overlapping damage; heal CD a defensivy držte na bursty.",
-    "Když boss nabije energii, spustí silné aury pro své spojence (damage/mitigation).",
-    "Udělá se hodně tank swapů kvůli tankbusterům / charge / debuffům.",
-    "Soaky jsou rozdělené do skupin (A/B) a musí být nasáknuty přesně jednou za sada."
+    "Tři bossové (Lightblood, Bellamy, Senn) v jedné aréně – zlikviduj je rovnoměrně.",
+    "Čekej vysoký overlap damage, heal CD a defensivy šetři na bursty.",
+    "Když někdo nabije 100 energie, spouští aura buffy (damage/mitigation).",
+    "Bude hodně tank swapů kvůli tankbusterům / chargům / debuffům.",
+    "Soaky jsou rozdělené na týmy A/B a každá sada musí být soaknutá jednou."
   ],
   "phases": [
     {
@@ -31,12 +31,12 @@
           "difficulties": ["normal", "heroic", "mythic"]
         },
         {
-          "title": "Aury bossů",
-          "subtitle": "Buffy v okolí 40 yd",
+          "title": "Aura",
+          "subtitle": "Buff pro bossy",
           "icon": "https://assets2.mythictrap.com/vs-dr-mqd/lightblinded-vanguard/auras.jpg",
           "video": "https://assets2.mythictrap.com/videos/vs-dr-mqd/lightblinded-vanguard/auraOfWrath.mp4",
           "wowhead": "https://en.wowhead.com/spell=1248449",
-          "description": "Když boss nabije energii, spustí auru, která posiluje jeho spojence. Proti Lightbloodu to je +100% damage, Bellamy dává -75% damage taken, Senn pacifikuje hráče v aury.",
+          "description": "Na 100 energií Lightblood buffne damage spojenců v okruhu 40 yd o 100 % na 15 s. Na 100 energií Bellamy sníží damage taken spojenců v okruhu 40 yd o 75 %. Na 100 energií Senn buffne spojence v okruhu 40 yd. Pokud udeříš Vanguard v Auroře míru, budeš pacifikovaný na 5 s.",
           "who": "Všichni",
           "what": "Stůj mimo auru nebo použij defensivy podle role",
           "note": "Pokud jdete do aura záměrně (např. k soaknutí), dávejte pozor na timing s dalšími mechanikami.",
@@ -50,7 +50,7 @@
           "wowhead": "https://en.wowhead.com/spell=1248983",
           "description": "Boss označí více hráčů kruhem; každý kruh musí být soaknutý jednou. Po soaknutém kruhu vyletí tři kladiva, která dělají damage na přilehlé hráče.",
           "who": "Všichni",
-          "what": "Help soak once per set",
+          "what": "Pomoz soakovat jednou za set",
           "note": "Větší soak skupina (A/B) pomůže snížit damage; nechte si místo pro kladiva.",
           "difficulties": ["normal", "heroic", "mythic"]
         },
@@ -62,7 +62,7 @@
           "wowhead": "https://en.wowhead.com/spell=1246765",
           "description": "Lightblood dělá malé 8 yd AoE kolem sebe.",
           "who": "Všichni",
-          "what": "Drž se mimo boss",
+          "what": "Drž se mimo bosse",
           "difficulties": ["normal", "heroic", "mythic"]
         },
         {
@@ -71,9 +71,9 @@
           "icon": "https://assets2.mythictrap.com/vs-dr-mqd/lightblinded-vanguard/avengersShield.jpg",
           "video": "https://assets2.mythictrap.com/videos/vs-dr-mqd/lightblinded-vanguard/avengersShield.mp4",
           "wowhead": "https://en.wowhead.com/spell=1246485",
-          "description": "Ozbrojení hráčů cílí několik hráčů, hází na ně štít a aplikuje DoT, který lze dispelovat.",
+          "description": "Označí několik hráčů kruhem, hodí na ně štít; ten exploduje a aplikuje DoT, který lze dispelovat.",
           "who": "Všichni",
-          "what": "Spread out if targeted + dispel",
+          "what": "Rozprostřít se, pokud jsi cílem + dispel",
           "difficulties": ["normal", "heroic", "mythic"]
         },
         {
@@ -83,8 +83,8 @@
           "video": "https://assets2.mythictrap.com/videos/vs-dr-mqd/lightblinded-vanguard/searingRadiance.mp4",
           "wowhead": "https://en.wowhead.com/spell=1255738",
           "description": "Raid dostává pulzující damage po 15 sekund.",
-          "who": "Všichni",
-          "what": "Heal through",
+          "who": "Healeři",
+          "what": "Přehealovat",
           "difficulties": ["normal", "heroic", "mythic"]
         },
         {
@@ -95,7 +95,7 @@
           "wowhead": "https://en.wowhead.com/spell=1248644",
           "description": "Bellamy hází vlny štítů, které dělají damage a zesilují silence.",
           "who": "Všichni",
-          "what": "Dodge the shields",
+          "what": "Vyhni se štítům",
           "difficulties": ["normal", "heroic", "mythic"]
         },
         {
@@ -106,17 +106,17 @@
           "wowhead": "https://en.wowhead.com/spell=1248674",
           "description": "Senn získá štít a naběhne na tank či hráče, dělá velké damage.",
           "who": "Tank",
-          "what": "Dodge charge",
+          "what": "Vyhni se chargu",
           "difficulties": ["normal", "heroic", "mythic"]
         },
         {
           "title": "Judgment + Shield of the Righteous",
-          "subtitle": "Tank swap",
+          "subtitle": "Tankbuster",
           "icon": "https://assets2.mythictrap.com/vs-dr-mqd/lightblinded-vanguard/judgment.jpg",
           "wowhead": "https://en.wowhead.com/spell=1251857",
           "description": "Judgment je dvoufázový tankbuster; po něm následuje Shield of the Righteous. Tank swapy jsou klíčové.",
           "who": "Tank",
-          "what": "Tank swap between abilities",
+          "what": "Tank swap po tankbusteru",
           "difficulties": ["normal", "heroic", "mythic"]
         },
         {
@@ -124,9 +124,9 @@
           "subtitle": "Disorient / interrupt",
           "icon": "https://assets2.mythictrap.com/vs-dr-mqd/lightblinded-vanguard/blindingLight.jpg",
           "wowhead": "https://en.wowhead.com/spell=1258514",
-          "description": "Senn použije Blinding Light, které disorientuje hráče, kteří na něj hledí.",
+          "description": "Boss použije Blinding Light, který disorientuje hráče, kteří na něj hledí.",
           "who": "Všichni",
-          "what": "Turn away / interrupt",
+          "what": "Otočit se od bosse / interrupt",
           "difficulties": ["normal", "heroic", "mythic"]
         },
         {
@@ -135,8 +135,8 @@
           "icon": "https://assets2.mythictrap.com/vs-dr-mqd/lightblinded-vanguard/sacredToll.jpg",
           "wowhead": "https://en.wowhead.com/spell=1246749",
           "description": "Velký raidový hit; pozor na overlapy s dalšími damage vlnami.",
-          "who": "Všichni",
-          "what": "Heal through",
+          "who": "Healeři",
+          "what": "Přehealovat",
           "difficulties": ["normal", "heroic", "mythic"]
         },
         {
@@ -145,8 +145,8 @@
           "icon": "https://assets2.mythictrap.com/vs-dr-mqd/lightblinded-vanguard/lightInfused.jpg",
           "wowhead": "https://en.wowhead.com/spell=1258659",
           "description": "Raid dostává tick damage, který se zvyšuje s každou Aurou Vanguardů.",
-          "who": "Všichni",
-          "what": "Heal through",
+          "who": "Healeři",
+          "what": "Přehealovat",
           "difficulties": ["normal", "heroic", "mythic"]
         },
         {
@@ -154,9 +154,9 @@
           "subtitle": "Tankbuster",
           "icon": "https://assets2.mythictrap.com/vs-dr-mqd/lightblinded-vanguard/exorcism.jpg",
           "wowhead": "https://en.wowhead.com/spell=1246745",
-          "description": "Velký holy hit na tanky; připravte defensivy.",
+          "description": "Velký holy hit na tanky; připrav defensivu.",
           "who": "Tank",
-          "what": "Use defensive cooldown",
+          "what": "Použij defensivu",
           "difficulties": ["normal", "heroic", "mythic"]
         }
       ]
