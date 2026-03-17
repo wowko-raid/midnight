@@ -1,0 +1,21 @@
+{
+  "slug": "midnight-falls",
+  "title": "Midnight Falls",
+  "wowhead": "https://www.wowhead.com/guide/midnight/raids/march-on-quel-danas-midnight-falls-boss-strategy-abilities",
+  "setup": "Koordinace soaků a rychlý DPS na addy.",
+  "overview": [
+    "Midnight Falls kdysi vládla plamenem, nyní ho používá proti raidu.",
+    "Mechanika zaměřená na split a soak; buďte připravení reagovat na markery.",
+    "Vysoký raid damage v klíčových momentech, držte cooldowny pro bursty."
+  ],
+  "phases": [
+    {
+      "title": "Fáze 1",
+      "notes": [
+        "Rozděl raid na dvě skupiny a kontrolujte, kde se objevují markery.",
+        "Držte spread, abyste se vyhnuli explozi poražených soaky."
+      ],
+      "mechanics": []
+    }
+  ]
+}

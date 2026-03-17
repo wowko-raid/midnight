@@ -1,6 +1,7 @@
 {
   "slug": "vorasius",
   "title": "Vorasius",
+  "wowhead": "https://www.wowhead.com/guide/midnight/raids/the-voidspire-vorasius-boss-strategy-abilities",
   "setup": "stabilní interrupt rota + mobilní DPS",
   "overview": [
     "Jedna fáze, rychlý fight se spoustou křišťálových stěn.",

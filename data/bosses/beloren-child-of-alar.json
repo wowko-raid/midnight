@@ -1,0 +1,19 @@
+{
+  "title": "Beloren, Child of Al'ar",
+  "wowhead": "https://www.wowhead.com/guide/midnight/raids/march-on-quel-danas-beloren-boss-strategy-abilities",
+  "setup": "DPS bursty a rychlé přesuny mezi fázemi.",
+  "overview": [
+    "Fight má dvě hlavní fáze s přechody na vyšší damage.",
+    "Vyhněte se oblasti s plameny a použijte mobility, když spawne oheň.",
+    "Tank swapuje na stacky a healové chytají raid damage z fire boltu."
+  ],
+  "phases": [
+    {
+      "title": "Fáze 1",
+      "notes": [
+        "Nastavte se na rychlé burny a vyhýbejte se plamenným oblastem."
+      ],
+      "mechanics": []
+    }
+  ]
+}

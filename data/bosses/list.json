@@ -2,6 +2,8 @@
   {
     "slug": "imperator-averzian",
     "title": "Imperator Averzian",
+    "wowhead": "https://www.wowhead.com/guide/midnight/raids/the-voidspire-imperator-averzian-boss-strategy-abilities",
+    "raid": "voidspire",
     "setup": "2 tanci · 4–5 healeři · zbytek dps",
     "overview": [
       "Jedna fáze, hodně addů spawnuje po claimu políček.",
@@ -13,6 +15,8 @@
   {
     "slug": "vorasius",
     "title": "Vorasius",
+    "wowhead": "https://www.wowhead.com/guide/midnight/raids/the-voidspire-vorasius-boss-strategy-abilities",
+    "raid": "voidspire",
     "setup": "stabilní interrupt rota + mobilní DPS",
     "overview": [
       "Jedna fáze, rychlý fight se spoustou křišťálových stěn.",
@@ -24,6 +28,8 @@
   {
     "slug": "fallen-king-salhadaar",
     "title": "Fallen King Salhadaar",
+    "wowhead": "https://www.wowhead.com/guide/midnight/raids/the-voidspire-fallen-king-salhadaar-boss-strategy-abilities",
+    "raid": "voidspire",
     "setup": "disciplína na soak markerech",
     "overview": [
       "Jednofázový fight s damage ampem na 100 energie.",
@@ -35,6 +41,8 @@
   {
     "slug": "vaelgor-and-ezzorak",
     "title": "Vaelgor & Ezzorak",
+    "wowhead": "https://www.wowhead.com/guide/midnight/raids/the-voidspire-vaelgor-ezzorak-boss-strategy-abilities",
+    "raid": "voidspire",
     "setup": "čisté target swapy a kontrola dual mechanik",
     "overview": [
       "Jednofázový fight s intermission (Midnight Flames + Barrier).",
@@ -46,8 +54,24 @@
     ]
   },
   {
+    "slug": "lightblinded-vanguard",
+    "title": "Lightblinded Vanguard",
+    "wowhead": "https://www.wowhead.com/guide/midnight/raids/the-voidspire-lightblinded-vanguard-boss-strategy-abilities",
+    "raid": "voidspire",
+    "setup": "dobrý defensivní timing celého raidu",
+    "overview": [
+      "Před pullem si určete safe spoty pro line‑of‑sight mechaniky.",
+      "Soak skupiny jsou rozdělené do dvou týmů (A/B) kvůli overkillu.",
+      "Tank callouty: frontal/cleave hlaste kvůli melee repositionu.",
+      "Heal CD rotace (spirit link / barrier / tranq) na hlavní burst okna.",
+      "DPS cooldowny nechávejte na momenty boss vulnerability, ne na pull."
+    ]
+  },
+  {
     "slug": "chimaerus-the-undreamt-god",
     "title": "Chimaerus, the Undreamt God",
+    "wowhead": "https://www.wowhead.com/guide/midnight/raids/the-dreamrift-overview-location-rewards-boss",
+    "raid": "dreamrift",
     "setup": "Rozděl raid na dvě skupiny, měj jasně rozdělené soaky a zaměř se na rychlé zabití addů.",
     "overview": [
       "Fight se střídá mezi Reality a Rift realitou.",
@@ -58,15 +82,27 @@
     ]
   },
   {
-    "slug": "lightblinded-vanguard",
-    "title": "Lightblinded Vanguard",
-    "setup": "dobrý defensivní timing celého raidu",
+    "slug": "beloren-child-of-alar",
+    "title": "Beloren, Child of Al'ar",
+    "wowhead": "https://www.wowhead.com/guide/midnight/raids/march-on-quel-danas-beloren-boss-strategy-abilities",
+    "raid": "march-on-quel-danas",
+    "setup": "DPS bursty a rychlé přesuny mezi fázemi.",
     "overview": [
-      "Před pullem si určete safe spoty pro line‑of‑sight mechaniky.",
-      "Soak skupiny jsou rozdělené do dvou týmů (A/B) kvůli overkillu.",
-      "Tank callouty: frontal/cleave hlaste kvůli melee repositionu.",
-      "Heal CD rotace (spirit link / barrier / tranq) na hlavní burst okna.",
-      "DPS cooldowny nechávejte na momenty boss vulnerability, ne na pull."
+      "Fight má dvě hlavní fáze s přechody na vyšší damage.",
+      "Vyhněte se oblasti s plameny a použijte mobility, když spawne oheň.",
+      "Tank swapuje na stacky a healové chytají raid damage z fire boltu."
+    ]
+  },
+  {
+    "slug": "midnight-falls",
+    "title": "Midnight Falls",
+    "wowhead": "https://www.wowhead.com/guide/midnight/raids/march-on-quel-danas-midnight-falls-boss-strategy-abilities",
+    "raid": "march-on-quel-danas",
+    "setup": "Koordinace soaků a rychlý DPS na addy.",
+    "overview": [
+      "Midnight Falls kdysi vládla plamenem, nyní ho používá proti raidu.",
+      "Mechanika zaměřená na split a soak; buďte připravení reagovat na markery.",
+      "Vysoký raid damage v klíčových momentech, držte cooldowny pro bursty."
     ]
   }
 ]
